@@ -1,69 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Acrylicons – Linux Icon Theme</title>
+<title>Acrylicons</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500&display=swap');
-:root{--bg:#e8e4de;--paper:#faf8f6;--ink:#2a221c;--line:#d6d0c8;--code:#1e1a16}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:Inter,sans-serif;line-height:1.6}
-h1,h2{font-family:Fraunces,serif}
-.wrap{max-width:1120px;margin:0 auto;padding:24px}
-header{display:flex;justify-content:space-between;padding:8px 0 48px}
-.hero{text-align:center}
-.hero h1{font-size:68px;letter-spacing:-.04em}
-.btn{border:1.2px solid var(--ink);border-radius:999px;padding:11px 20px;display:inline-flex;text-decoration:none}
-.btn.primary{background:var(--ink);color:var(--paper)}
-.grid6{display:grid;grid-template-columns:repeat(6,1fr);gap:22px;max-width:780px;margin:36px auto}
-.ic{aspect-ratio:1;background:#fff;border:1px solid var(--line);border-radius:22px;display:grid;place-items:center}
+body{margin:0;font-family:system-ui;background:#f4eee6;color:#2a221c}
+.ic{width:72px;height:72px;background:#fff;border:1px solid #d6d0c8;border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:32px;margin:0 auto 10px}
+.ic img{width:56px;height:56px;object-fit:cover;border-radius:14px}
+.card{background:#fff;border:1px solid #d6d0c8;border-radius:20px;padding:20px;text-align:center}
 </style>
 </head>
 <body>
-<div class="wrap">
-<header><div>◐ acrylicons</div><nav>Docs Install Download</nav></header>
-<section class="hero">
-<h1>Acrylicons</h1>
-<p>Minimal acrylic icon theme for Linux</p>
-</section>
-<div class="grid6"><div class="ic">🏠</div><div class="ic">👤</div><div class="ic">⚙️</div><div class="ic">📁</div><div class="ic">💙</div><div class="ic">🗃️</div></div>
-<section style="max-width:780px;margin:40px auto">
-<h2 style="text-align:center">Installation</h2>
-
-<div style="background:#fff;border:1px solid #d6d0c8;border-radius:20px;padding:20px;margin:16px 0">
-<b>1. Download</b><br>
-Acrylicons v5 als ZIP laden und entpacken
+<div style="max-width:780px;margin:0 auto;padding:24px">
+<div style="text-align:center;padding:40px 0 10px">
+<h1 style="font-size:42px;margin:0">Acrylicons</h1>
+<p>Weiche Acryl-Icons für Linux</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0">
+<div class="card"><div class="ic"><img src="https://mondlicht-und-sterne.github.io/acrylicons/Cosmicding.png" alt="Icon 1"></div><b>Cosmicding</b><br><small>Cosmicding</small></div>
+<div class="card"><div class="ic"><img src="icons/icon2.png" alt="Icon 2"></div><b>Icon 2</b><br><small>Dein 2. Bild</small></div>
+<div class="card"><div class="ic"><img src="icons/icon3.png" alt="Icon 3"></div><b>Icon 3</b><br><small>Dein 3. Bild</small></div>
+<div class="card"><div class="ic"><img src="icons/icon4.png" alt="Icon 4"></div><b>Icon 4</b><br><small>Dein 4. Bild</small></div>
+<div class="card"><div class="ic"><img src="icons/icon5.png" alt="Icon 5"></div><b>Icon 5</b><br><small>Dein 5. Bild</small></div>
+<div class="card"><div class="ic"><img src="icons/icon6.png" alt="Icon 6"></div><b>Icon 6</b><br><small>Dein 6. Bild</small></div>
+</div>
+<div class="card" style="text-align:left">
+<h2 style="margin-top:0">Installation</h2>
+<p><b>1.</b> Pack herunterladen<br>
+<b>2.</b> Entpacken<br>
+<b>3.</b> Ordner nach <code>~/.icons</code> kopieren<br>
+<b>4.</b> In den Einstellungen als Icon-Theme wählen</p>
 </div>
 
-<div style="background:#fff;border:1px solid #d6d0c8;border-radius:20px;padding:20px;margin:16px 0">
-<b>2. Installieren</b><br>
-Einfach: install.sh starten<br>
-Manuell: Ordner nach .local / share / icons verschieben
-</div>
-</section>  
-<section style="max-width:780px;margin:0 auto">
-<div style="background:#fff;border:1px solid #d6d0c8;border-radius:20px;padding:20px;margin:16px 0">
-<b>3. Aktivieren</b><br>
-KDE: Einstellungen - Erscheinungsbild - Symbole<br>
-GNOME: Tweaks - Erscheinungsbild<br>
-Mint: Einstellungen - Designs - Symbole
+<div style="text-align:center;margin:28px 0">
+<a href="#" style="background:#2a221c;color:#fff;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:700">Pack herunterladen</a>
 </div>
 
-<div style="background:#fff;border:1px solid #d6d0c8;border-radius:20px;padding:20px;margin:16px 0">
-<b>4. Auswählen</b><br>
-Acrylicons aus der Liste wählen - fertig!
-</div>
-
-<div style="text-align:center;margin:36px 0">
-<a href="#" style="background:#2a221c;color:#faf8f6;padding:12px 22px;border-radius:999px;text-decoration:none">Download v5.0</a>
-<p style="margin-top:12px;font-size:13px">ZIP - MIT Lizenz</p>
-</div>
-
-<footer style="text-align:center;padding:24px;font-size:13px;opacity:.7">
-Acrylicons - MIT - Kekila
-</footer>
-</section>
+<p style="text-align:center;color:#777;font-size:13px">© 2026 Acrylicons – Gemacht mit Liebe</p>
 </div>
 </body>
 </html>
